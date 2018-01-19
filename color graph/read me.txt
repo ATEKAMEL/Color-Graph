@@ -1,0 +1,30 @@
+A compiler avec :  g++ -std=c++14 ameltek.cpp
+Exec : ./a.out
+
+ouvrir le text.ps pour voir le rendu
+le text.dot sert à fabriquer le graphe
+
+la boucle pour le moment doit rester entre 0 - 99 = donc 100
+
+-std=c++14 ---> compiler 2014 automate pour faire des rendus random 
+
+
+installer 
+1. C++
+2. dlib
+3. Boost Graphe
+4. Optimization.h 
+
+la 2 le reson entre autre 
+
+
+/*
+int grundy(const Graph& g, vector<int>& num){
+ vector<int> vertex(num_vertices(g));
+   
+    num.resize(num_vertices(g), -1);
+    int i;
+    int passed= num_vertices(g);
+    for (i=0; passed != 0; i++){
+	if();
+}*/
